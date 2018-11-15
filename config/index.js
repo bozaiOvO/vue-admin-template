@@ -11,6 +11,13 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
+      '/bufanapi':{
+          target:'http://192.168.43.141',
+          changeOrigin:true,
+          pathRewrite:{
+              '^/bufanapi':''
+          }
+      },
       '/api':{
           target:'http://jsonplaceholder.typicode.com',
           changeOrigin:true,

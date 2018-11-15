@@ -49,6 +49,16 @@
                         title: '基础表格'
                     },
                     {
+                        icon: 'el-icon-lx-cascades',
+                        index: 'kind',
+                        title: '分类表格'
+                    },
+                    {
+                        icon: 'el-icon-lx-cascades',
+                        index: 'kind2',
+                        title: '分类表格222'
+                    },
+                    {
                         icon: 'el-icon-lx-copy',
                         index: 'tabs',
                         title: 'tab选项卡'

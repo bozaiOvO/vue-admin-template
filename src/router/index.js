@@ -84,7 +84,17 @@ export default new Router({
                     path: '/403',
                     component: resolve => require(['../components/page/403.vue'], resolve),
                     meta: { title: '403' }
-                }
+                },
+                {
+                    path:'/kind',
+                    component: resolve => require(['../components/page/kind.vue'], resolve),
+                    meta:{title:'kind'}
+                },
+                {
+                    path:'/kind2',
+                    component: resolve => require(['../components/page/kind2.vue'], resolve),
+                    meta:{title:'kind2'}
+                }                  
             ]
         },
         {
